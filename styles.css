@@ -1,6 +1,7 @@
  body {
   font-family: "Lato", sans-serif; /*case lato is unresponsive use sansserif*/
   margin: 0px;
+  background-color: black;
 }
 
 .container {
@@ -31,11 +32,11 @@
 }
 
 .active-nav-link {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .active-nav-link a {
-  color: black !important;/*to overide default*/
+  color: white !important;/*to overide default*/
 }
 
 .nav-link-wrapper a {
@@ -45,11 +46,11 @@
 }
 
 .nav-link-wrapper:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .nav-link-wrapper a:hover {
-  color: black;
+  color: white;
 }
 
 .portfolio-items-wrapper {
@@ -121,6 +122,8 @@
 .profile-content-wrapper {
   padding: 30px;
   margin-right: 100px;
+  color: white;
+
 }
 
 .profile-content-wrapper h1 {
